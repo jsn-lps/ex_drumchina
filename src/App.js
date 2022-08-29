@@ -1,25 +1,65 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+function DrumMachine() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div id="drum-machine">
+        <div id="display">
+
+      <div id="buttons">
+      <div id="audio-file.mp3" className="drum-pad">Q
+        <div id="Q">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">W
+        <div id="W">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">E
+        <div id="E">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">A
+        <div id="A">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">S
+        <div id="S">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">D
+        <div id="D">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">Z
+        <div id="Z">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">X
+        <div id="X">
+        </div>
+      </div>
+
+      <div id="audio-file.mp3" className="drum-pad">C
+        <div id="C">
+        </div>
+      </div>
+      </div>
+
+      {/* // display div */}
+      <div id="spacerBar"></div>
+      <div id="displayRight">
+        yoyoyo suck my nuts.
+      </div>
+      </div>
     </div>
   );
 }
 
-export default App;
+export default DrumMachine;
